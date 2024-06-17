@@ -6,7 +6,7 @@ const Sidebar=()=>{
    if(!showNav) return null;
 
    return(
-    <div className="shadow-xl w-1/6 pt-3 pl-1">
+    <div className="shadow-xl pt-3 pl-1 px-4 ">
       <ul className="pt-1">
          <li className="font-bold"><span className="pr-1">🏠</span>HOME</li>
          <li className="font-bold"><span className="pr-1">🎞</span>SHORTS</li>

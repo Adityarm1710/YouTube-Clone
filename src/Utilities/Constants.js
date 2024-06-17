@@ -6,4 +6,6 @@ export const YOUTUBE_USER_LOGO = "https://encrypted-tbn0.gstatic.com/images?q=tb
 
 export const YOUTUBE_NOTI_LOGO = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuMXaLp6DiEdfTzSO5Fu4--hZMgA5_FX6MzA&s"
 
-export const YOUTUBE_API_KEY = "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key=AIzaSyBpKmHy25KSwKp1btbP-NmczwyqUkx5JZs";
+export const YOUTUBE_API_KEY = "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=US&key=AIzaSyBpKmHy25KSwKp1btbP-NmczwyqUkx5JZs";
+
+export const YOUTUBE_SEARCH_API="http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";

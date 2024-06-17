@@ -2,7 +2,7 @@ import Button from "./ButtonComponent";
 
 const Buttonlist=()=>{
    return(
-    <div className="flex">
+    <div className="flex pl-2">
        <Button buttonName="All"/>
        <Button buttonName="Cricket"/> 
        <Button buttonName="News"/> 
@@ -17,10 +17,7 @@ const Buttonlist=()=>{
        <Button buttonName="News"/> 
        <Button buttonName="Climate"/> 
        <Button buttonName="Movies"/> 
-       <Button buttonName="Comedy"/> 
-       <Button buttonName="Live"/> 
-       <Button buttonName="Attack"/> 
-       <Button buttonName="India"/> 
+       <Button buttonName="Comedy"/>  
     </div>
    );
 };
